@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contemporary Japanese Art</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="kawashima_gallery.css">
+    <link rel="icon" href="MP/Butterfly-logo.png">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <input id="menu-toggle" class="menu-toggle-input" type="checkbox">
+
+        <nav class="navbar p-0">
+            <div class="menu container-fluid">
+                <img src="MP/Cat-logo.png" alt="Cat-logo" class="logo-img">
+                <label for="menu-toggle" class="btn-burger">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                    <span class="big-point"></span>
+                </label>
+            </div>
+
+            <div class="main-nav w-100">
+                <div class="nav-links-wrapper">
+                    <a href="MP.html">Home</a>
+                    <a href="contacts.html">Contacts</a>
+                    <a href="artists.html">Artists</a>
+                    <a href="quiz.html">Quiz</a>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="artist-gallery">
+            <h1 class="artist-name">Hideaki Kawashima</h1>
+            <p class="artist-years">Born 1969</p>
+            <p class="artist-description">A modern Nihonga artist, known for his psychedelic landscapes and mystical, ethereal imagery that explores the human psyche.</p>
+            
+            <div id="artistCarousel" class="carousel slide slider-window" data-bs-ride="carousel">
+                
+                <div class="carousel-indicators dots">
+                    <button type="button" data-bs-target="#artistCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#artistCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#artistCarousel" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner train">
+                    <div class="carousel-item active slide">
+                        <img src="Gallery/Хидеаки Кавашима/1.jpeg" alt="Work 1">
+                        <div class="caption">
+                            <h5>Bubble</h5>
+                            <p>バルーン (Barūn)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item slide">
+                        <img src="Gallery/Хидеаки Кавашима/2.jpg" alt="Work 2">
+                        <div class="caption">
+                            <h5>Melancholy</h5>
+                            <p>メランコリ (Merankorī)</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item slide">
+                        <img src="Gallery/Хидеаки Кавашима/3.jpeg" alt="Work 3">
+                        <div class="caption">
+                            <h5>Smoke</h5>
+                            <p>スモーク (Sumōku)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#artistCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#artistCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+
+            </div>
+            
+            <div class="navigation-links">
+                <a href="murakami_gallery.html" class="back-link">← Back to Murakami</a>
+                <a href="shiota_gallery.html" class="next-link">Next Artist →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container-fluid footer-wrap">
+
+            <div class="row footer-top gy-5">
+                <div class="col-lg-4 col-md-6 footer-first">
+                    <img class="footer-logo" src="MP/ZenArt-logo.png" alt="ZenArt-logo">
+                    <div class="social-icons">
+                        <img src="MP/Facebook.png" alt="Facebook">
+                        <img src="MP/Twitter.png" alt="Twitter">
+                        <img src="MP/Instagram.png" alt="Instagram">
+                        <img src="MP/GitHub.png" alt="GitHub">
+                        <img src="MP/YouTube.png" alt="YouTube">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 footer-second">
+                    <h3>Get the freshest ZenArt news</h3>
+                    <input type="email" class="news-input" placeholder="Your email here">
+                    <div class="footer-btns">
+                        <button class="btn-icon"><img src="MP/Subscribe.png" alt="">Subscribe</button>
+                        <button class="btn-icon"><img src="MP/Like.png" alt="">Like</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-last">
+                    <a href="faq.html">FAQ</a>
+                    <a href="artists.html">MAIN INFORMATION</a>
+                    <a href="contacts.html">CONTACT US</a>
+                    <a href="pripol.html">PRIVACY POLICY</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright Terms © 2026</p>
+                <p>All rights are reserved. Developed by Daria</p>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body></html>
